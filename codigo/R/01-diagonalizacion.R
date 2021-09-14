@@ -20,3 +20,6 @@ library(dplyr)
 near(A%*%v1, l1*v1)
 
 solve(eig$vectors)%*%A%*%eig$vectors
+
+
+A%*%v2
